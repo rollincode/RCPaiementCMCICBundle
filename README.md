@@ -81,3 +81,6 @@ Ce service est appelé lorsque les serveurs CMCIC interrogent le serveur de l'ap
 Il faudra donc adapter les cas de chaque retour (succès, erreur, etc.)
 
 ATTENTION c'est seulement dans ce cas-là qu'il faudra implanter la logique métier cêté commerçant, en effet, c'est seulement à ce moment qu'on est sûr du résultat du paiement.
+
+Lors de la phase retour effectué par les serveurs CMCIC, on créer une architecture de dossier qui stock les paramètres retour et la verification de signature.
+Par défaut ce dossier est `DOSSIER_APPLICATION/../data/ANNEE/MOIS/TIME.txt`
