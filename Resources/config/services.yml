@@ -1,0 +1,7 @@
+services:
+    rc.paiementcmcic_tpe:
+        class: RC\PaiementCMCICBundle\Services\TpeService
+        arguments: ['@service_container']
+    rc.paiementcmcic_logic_tpe:
+            class: RC\PaiementCMCICBundle\Services\SampleLogicTpeService
+            arguments: ['@service_container']
