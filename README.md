@@ -69,9 +69,15 @@ Dans `app/config/services.yml` et adaptez là avec les identifiants fournis par 
 ### Utilisation
 
 Le bundle fournit 2 services et 1 controller.
+
 Le service `TpeService` disponible via `$this->container->get('rc.paiementcmcic_tpe');` permet d'utiliser les méthodes relatives à l'initialisation du formulaire.
+
 L'objet `Paiement` disponible via la méthode du service `getPaiementObjet($montant, $email)` permet donc de peupler le formulaire avec un objet prêt à l'emploi.
+
 Le service `rc.paiementcmcic_logic_tpe` est un exemple de service devant être implanté pour le traitement métier (mise à jour base de données, etc).
+
 Ce service est appelé lorsque les serveurs CMCIC interrogent le serveur de l'application afin de lui informer le statut du paiement effectuer.
+
 Il faudra donc adapter les cas de chaque retour (succès, erreur, etc.)
+
 ATTENTION c'est seulement dans ce cas-là qu'il faudra implanter la logique métier cêté commerçant, en effet, c'est seulement à ce moment qu'on est sûr du résultat du paiement.
