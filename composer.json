@@ -1,5 +1,5 @@
 {
-  "name":        "rc/paiementcmcic-bundle",
+  "name":        "rollincode/paiementcmcic-bundle",
   "type":        "symfony-bundle",
   "description": "Add CMCIC TPE",
   "keywords":    ["tpe", "paiement", "CM", "CIC", "Crédit Mutuel", "Crédit Industriel et Commercial"],
