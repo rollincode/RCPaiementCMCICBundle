@@ -1,10 +1,14 @@
 # Bundle de paiement CM & CIC 
 
 Ce bundle permet une implementation rapide et simple des solutions de paiement en ligne des banques Crédit Mutuel et Crédit Industriel et Commercial
-Attention ce bundle est actuellement en phase de développement mais il est déjà en production.
+Attention ce bundle est actuellement en phase de développement mais il peut tout de même être utilisé en production en prennant en compte certaines précautions.
 
-Ce bundle s'appuit sur le code PHP fournit par les banques. Le but est de founir des services et des controlleur facileement utilisable dans Symfony 2.
+Ce bundle s'appuit sur le code PHP fournit par les banques. Le but est de founir des services et des controllers facilement utilisable dans Symfony 2.
+
+Ci-dessous les documentations du TPE.
+
 [DOC GENERALE](https://www.cmcicpaiement.fr/fr/info/documentations/CM-CIC_paiement_documentation_generale_v3_0.pdf)
+
 [DOC TECHNIQUE](https://www.cmcicpaiement.fr/fr/info/documentations/CM-CIC_paiement_documentation_technique_v3_0.pdf)
 
 ### TODOS
