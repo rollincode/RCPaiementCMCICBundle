@@ -25,7 +25,7 @@ Ci-dessous les documentations du TPE.
 
 Dans la console :
 
-    composer require rollincode/paiementcmcic-bundle dev-master
+    composer require rollincode/paiementcmcic-bundle
     
 ### Ajout dans l'appKernel
 
