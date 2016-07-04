@@ -11,7 +11,7 @@ Ci-dessous les documentations du TPE.
 
 [DOC TECHNIQUE](https://www.cmcicpaiement.fr/fr/info/documentations/CM-CIC_paiement_documentation_technique_v3_0.pdf)
 
-### TODOS
+### TODO
 
 - [ ] Effectuer un test d'intégration du bundle
 - [ ] Effectuer les test unitaires et fonctionnels
